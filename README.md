@@ -4,7 +4,7 @@ An ongoing project utilizing Jekyll and JSON to log and analyze options trading 
 
 ---
 
-[**View Project »**](/trade-ideas/) | [**View on GitHub »**](https://github.com/mkahveci/quantitative-market-analysis)
+[**View Project »**](/trade-ideas/) | [**View on GitHub »**](https://github.com/mkahveci/qma)
 
 ---
 
