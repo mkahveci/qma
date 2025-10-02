@@ -1,6 +1,6 @@
 ---
 layout: projectgit
-title: "Quantitative Market Analysis"
+title: "Option Trade Ideas"
 project: qma
 repo: mkahveci/qma
 permalink: /:path/:basename:output_ext
