@@ -7,7 +7,7 @@
 | Data Analysis | In Progress | Jekyll, JSON, Liquid, Bootstrap 5 | options, trading, jekyll, fintech |
 
 ---
-**Live Project:** https://kahveci.pw/trade-ideas/
+**Live Project:** https://kahveci.pw/trade-ideas/ 
 ---
 
 ## About This Project
