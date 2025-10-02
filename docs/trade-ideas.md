@@ -1,7 +1,9 @@
 ---
-layout: projectgit 
-title: Trade Ideas
-permalink: /trade-ideas
+layout: projectgit
+title: "Quantitative Market Analysis"
+project: qma
+repo: mkahveci/qma
+permalink: /:path/:basename:output_ext
 ---
 
 <style>
