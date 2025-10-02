@@ -1,5 +1,5 @@
 ---
-layout: misc
+layout: projectgit
 title: Trade Ideas
 permalink: /trade-ideas
 ---
