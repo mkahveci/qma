@@ -1,24 +1,27 @@
-# Quantitative Market Analysis
+# Jekyll Trade Journal
 
-An ongoing project utilizing Jekyll and JSON to log and analyze options trading strategies, focusing on data-driven decision-making.
+**An open-source tool to track and analyze options trade ideas.**
+
+| Category | Status      | Tech Stack                      | Keywords                          |
+| :------- | :---------- | :------------------------------ | :-------------------------------- |
+| Data Analysis | In Progress | Jekyll, JSON, Liquid, Bootstrap 5 | options, trading, jekyll, fintech |
 
 ---
-
-[**View Project »**](/trade-ideas/) | [**View on GitHub »**](https://github.com/mkahveci/qma)
-
+[**View Project »**](/trade-ideas/)
 ---
 
-## **Disclaimer ⚠️**
-**This project is for educational and technical demonstration purposes only. It is NOT financial advice. All trade ideas are personal logs and should not be used for making financial decisions.**
+## About This Project
+An open-source tool to track and analyze options trade ideas. Built with Jekyll and a simple JSON database, it offers a lightweight, self-hosted system for logging market analysis without a complex backend. Ideal for traders who code and want a simple, transparent solution.
 
-## Objective
-The goal of this project is to create a simple, self-hosted system for logging and displaying financial market analysis without relying on complex backend servers or databases.
-
-## Technology Stack
-* **Framework:** Jekyll
-* **Data:** JSON file in the `_data` directory
-* **Templating:** Liquid
-* **Styling:** Bootstrap 5
+## Key Features
+* Trade ideas are shared with summary reasoning.
+* Includes specific options strategy details and Days-Till-Expiration (DTE).
+* Displays market analysis in a clear, card-based format.
 
 ## How to Contribute
 Contributions are welcome! If you have ideas for improving the code, the display, or the data structure, please feel free to open an issue or submit a pull request.
+
+## Disclaimer ⚠️
+This project is for educational and technical demonstration purposes only. It is NOT financial advice. All trade ideas are personal logs and should not be used for making financial decisions.
+
+
