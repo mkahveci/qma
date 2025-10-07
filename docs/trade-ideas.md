@@ -168,4 +168,4 @@ permalink: /:path/:basename:output_ext
       console.error('Failed to copy text: ', err);
     });
   }
-</script>
+</script> 
