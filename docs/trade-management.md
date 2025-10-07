@@ -58,14 +58,14 @@ permalink: /:path/:basename:output_ext
     <div class="strategy-header">Entry Criteria</div>
     <ul class="list-unstyled list-strategy">
       <li><strong>Target DTE:</strong> Approximately 45 days. This provides the ideal balance of capturing premium while mitigating the risk of rapid, unpredictable price moves.</li>
-      <li><strong>Strike Selection:</strong> Choose a strike with a **.15 to .30 delta**. This gives us a high probability of profit (around 70-85% at entry) and puts the strike well outside of the expected one-standard-deviation move.</li>
-      <li><strong>IV Rank:</strong> Only enter trades when the **Implied Volatility (IV) Rank is 30% or higher**. High IV means options are relatively expensive, allowing us to collect more premium for the same risk.</li>
+      <li><strong>Strike Selection:</strong> Choose a strike with a <b>.15 to .30 delta</b>. This gives us a high probability of profit (around 70-85% at entry) and puts the strike well outside of the expected one-standard-deviation move.</li>
+      <li><strong>IV Rank:</strong> Only enter trades when the <b>Implied Volatility (IV) Rank is 30% or higher</b>. High IV means options are relatively expensive, allowing us to collect more premium for the same risk.</li>
     </ul>
 
     <div class="strategy-header">Management Plan</div>
     <ul class="list-unstyled list-strategy">
-      <li><strong>Profit Taking:</strong> The primary goal is to **take profits at 50% of the maximum potential profit**. Once the option's value has decayed by half, we close the position. This allows us to redeploy capital and reduce risk, as the final 50% of the premium takes significantly longer to decay than the first.</li>
-      <li><strong>Time-Based Management:</strong> If the trade has not hit the 50% profit target but reaches **21 Days to Expiration (DTE)**, we consider closing the trade. This is because the rate of theta decay accelerates in the final three weeks, making it more volatile and less predictable. By closing early, we avoid this "gamma risk."</li>
+      <li><strong>Profit Taking:</strong> The primary goal is to <b>take profits at 50% of the maximum potential profit</b>. Once the option's value has decayed by half, we close the position. This allows us to redeploy capital and reduce risk, as the final 50% of the premium takes significantly longer to decay than the first.</li>
+      <li><strong>Time-Based Management:</strong> If the trade has not hit the 50% profit target but reaches <b>21 Days to Expiration (DTE)</b>, we consider closing the trade. This is because the rate of theta decay accelerates in the final three weeks, making it more volatile and less predictable. By closing early, we avoid this "gamma risk."</li>
       <li><strong>Adjusting/Closing for Loss:</strong> If the underlying stock price moves against the position and the short put becomes at-the-money, it's often best to close the position and move on. The loss is controlled, and you can seek a new, high-probability trade elsewhere.</li>
     </ul>
     <div class="callout">
@@ -79,14 +79,14 @@ permalink: /:path/:basename:output_ext
 
     <div class="strategy-header">Entry Criteria</div>
     <ul class="list-unstyled list-strategy">
-      <li><strong>Target DTE:</strong> Approximately **7 days** (a weekly expiration). The goal is rapid theta decay and quick capital turnover.</li>
-      <li><strong>Strike Selection:</strong> Choose a strike with a **.15 to .30 delta**. This maximizes the probability of success while still collecting meaningful premium.</li>
-      <li><strong>Annualized ROC:</strong> The annualized Return on Capital (ROC) **must be greater than 30%**. This ensures the premium collected justifies the weekly risk, making the trade financially worthwhile. The formula is: <code>(Premium / Strike Price) * (365 / DTE)</code>.</li>
+      <li><strong>Target DTE:</strong> Approximately <b>7 days</b> (a weekly expiration). The goal is rapid theta decay and quick capital turnover.</li>
+      <li><strong>Strike Selection:</strong> Choose a strike with a <b>.15 to .30 delta</b>. This maximizes the probability of success while still collecting meaningful premium.</li>
+      <li><strong>Annualized ROC:</strong> The annualized Return on Capital (ROC) <b>must be greater than 30%</b>. This ensures the premium collected justifies the weekly risk, making the trade financially worthwhile. The formula is: <code>(Premium / Strike Price) * (365 / DTE)</code>.</li>
     </ul>
 
     <div class="strategy-header">Management Plan</div>
     <ul class="list-unstyled list-strategy">
-      <li><strong>Profit Taking:</strong> The ultimate goal is to **close the position as soon as it reaches 80% of max profit**, even if this happens in the first day. This is a key difference from the 45 DTE strategy. The high annualized ROC means we want to close winners quickly to redeploy capital.</li>
+      <li><strong>Profit Taking:</strong> The ultimate goal is to <b>close the position as soon as it reaches 80% of max profit</b>, even if this happens in the first day. This is a key difference from the 45 DTE strategy. The high annualized ROC means we want to close winners quickly to redeploy capital.</li>
       <li><strong>Holding to Expiration:</strong> If the trade is still a winner at expiration, it will simply expire worthless. This is the ideal outcome.</li>
       <li><strong>Assignment (The "Wheel"):</strong> If the stock price falls below the short put strike at expiration, the put will be assigned, and you will buy 100 shares of the stock at the strike price. This is not a failure—it's the second step of the Wheel.</li>
     </ul>
