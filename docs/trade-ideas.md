@@ -92,7 +92,7 @@ permalink: /:path/:basename:output_ext
                 <span>Earnings: <strong>{{ trade.earningsDate | default: "N/A" }}</strong></span>
               </div>
               
-              <p class="card-text small mt-3">{% raw %}{{ trade.summaryJustification }}{% endraw %}</p>
+              <p class="card-text small mt-3">{{ trade.summaryJustification }}</p>
 
               <div class="trade-card-section bg-light">
                 <ul class="list-unstyled small mb-0">
