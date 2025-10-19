@@ -6,7 +6,6 @@ permalink: /projectsgit/qma/docs/readings/
 
 <div class="container my-5">
     <header class="mb-5">
-        <h1 class="display-5 fw-bold text-primary">Further Readings & Strategies</h1>
         <p class="lead">A curated list of blog posts and guides detailing the theoretical and practical trading strategies that underpin the $qma$ (Jekyll Trade Journal) project.</p>
         <hr>
     </header>
