@@ -24,7 +24,7 @@ An open-source tool to track and analyze options trade ideas. Built with Jekyll 
             Get Instant Notifications on Telegram
           </h5>
           <p class="card-text text-muted mb-4">
-            Click on the **Trade Alerts Official Feed** logo below to join.
+            Click on the <b>Trade Alerts Official Feed</b> logo below to join.
           </p>
 
           <a href="https://t.me/+8ckPYL0SgcQ1ZGIx" target="_blank" rel="noopener noreferrer" class="d-inline-block">
@@ -42,4 +42,3 @@ Contributions are welcome! If you have ideas for improving the code, the display
 
 ### Disclaimer
 This project is for educational and technical demonstration purposes only. It is NOT financial advice. All trade ideas are personal logs and should not be used for making financial decisions.
-
