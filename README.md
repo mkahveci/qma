@@ -1,4 +1,4 @@
-## Jekyll Trade Journal
+## Quantitative Market Analysis
 
 **An open-source tool to track and analyze options trade ideas.**
 
