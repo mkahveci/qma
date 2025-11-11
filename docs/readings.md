@@ -20,7 +20,7 @@ permalink: /qma-readings/
             {% for reading in sorted_readings %}
             <div class="col">
                 <a href="{{ reading.link | relative_url }}" class="text-decoration-none">
-                    <div class="card shadow-sm h-100 border-0">
+                    <div class="card shadow-sm h-100 border-0" style="background-color: var(--bs-card-bg);">
                         <div class="card-body d-flex">
                             
                             <div class="me-3 text-primary" style="min-width: 50px;">
@@ -28,7 +28,7 @@ permalink: /qma-readings/
                             </div>
                             
                             <div>
-                                <h5 class="card-title fw-bold text-dark">{{ reading.title }}</h5>
+                                <h5 class="card-title fw-bold text-body">{{ reading.title }}</h5>
                                 <p class="card-text small text-muted mb-2">{{ reading.excerpt }}</p>
                                 
                                 <footer class="mt-2 border-top pt-2">
