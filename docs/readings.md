@@ -1,7 +1,8 @@
 ---
 layout: projectgit
 title: "Readings & Documentation"
-permalink: /projectsgit/qma/docs/readings/
+project: qma
+permalink: /qma-readings/
 ---
 
 <div class="container my-5">
